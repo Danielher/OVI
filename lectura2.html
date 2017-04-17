@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="daniel">
+	<meta description="OVI_DiseñoWEB">
+	<meta content="UNAD, diseño web, html" name="keywords">
+	<title>ConstruccionOVI</title>
+	<link rel="stylesheet" href="css/Style.css">
+</head>
+
+<body>
+
+	<div id="contenedor">
+		<header>
+			<img src="img/ECBTI-1.png" alt="header">
+		</header><!-- /header -->
+
+		<nav>
+			<ul class="menu">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="lectura1.html">Lecturas</a>
+					<ul class="submenu">
+                        <li><a href="lectura1.html">Lectura1</a></li>
+                        <li><a href="lectura2.html">Lectura2</a></li>
+                        <li><a href="lectura3.html">Lectura3</a></li>
+                        <li><a href="lectura4.html">Lectura4</a></li>
+                        <li><a href="lectura5.html">Lectura5</a></li>
+                     </ul>
+
+				</li>
+				<li><a>Multimedia</a>
+					<ul class="submenu">
+                        <li><a href="multimedia1.html">Video1</a></li>
+                        <li><a href="multimedia2.html">Video2</a></li>
+                    </ul>
+                </li>
+				<li><a>Actividades</a>
+					<ul class="submenu">
+                        <li><a href="actividad1.html">Actividad1</a></li>
+                        <li><a href="actividad2.html">Actividad2</a></li>
+                        <li><a href="actividad3.html">Actividad3</a></li>
+                    </ul>
+				</li>
+				<li><a href="autor.html">Autor</a></li>
+			</ul>
+		</nav>
+
+		<section>
+			<article>
+            	<h5><a>Estructura basica del HTML5</a></h5>
+            	<p>
+            		<div><img style="float: right;" src="img/imgestructura.png"/>
+            		<ul type=square>
+            			<li>Cada página comienza con: “< HTML >”.</li>
+            			<li>A continuación viene la cabecera, delimitada por < HEAD > y < /HEAD >.</li>
+            			<li>Después, el comando < BODY >, que indica el comienzo del cuerpo de la página.</li> 
+            			<li>Las instrucciones HTML se escribirán a continuación, y finalizarán con<	/BODY>.</li>
+            			<li>La página acabará con < /HTML >.</li>
+            		</ul>
+            	  	</div>
+            	</p> 
+            	<h5>Cabecera - HEAD</h5>
+				<p>
+					<ul type=square>
+            			<li>La cabecera de un documento está delimitada por las etiquetas < HEAD > y </ HEAD > Sus componentes son opcionales. El más importante es < TITLE > , que permite escribir el título del documento. El título no se muestra en la página, sino en la parte superior de la ventana del visualizador, como identificador en los bookmarks y en la history list. Normalmente las etiquetas y elementos que se usan allí no se ven en el sitio web. Se utiliza de la siguiente forma:
+						< HEAD >
+						< TITLE >Título del documento HTML </ TITLE>  </ HEAD >.
+						</li>
+					</ul>
+            	</p>
+            	<h5>Cuerpo - Body</h5>
+            	<p>
+            		<ul type=square>
+            			<li>Es la parte delimitada por < BODY> y < /BODY > . Alli es donde escribimos el contenido del sitio WEB es decir lo que se va a mostrar. Puede llevar los siguientes atributos:
+						BACKGROUND="imagen": define el fondo. Más adelante veremos más sobre imágenes.
+						BGCOLOR="######": color del fondo (sólo si no se define una imagen de fondo, o si ésta imagen no puede obtenerse.. Más adelante veremos más sobre colores. Por ahora nos basta saber que para los colores básicos se puede utilizar su nombre en inglés: white, blue, red, green ...
+						TEXT="######": color del texto. Por defecto será negro.
+						LINK="######": color de los links. Por defecto será azul.
+						VLINK="######": color de los links visitados. Por defecto será violeta.
+						</li>
+					</ul>
+            	</p>          
+         	</article>
+
+		
+			
+		</section>
+
+		<aside>
+			<h5>Consejos practicos para aprender HTML</h5>
+			<figure>
+			<img src="img/imgaside1.jpg" alt="aside" width="180" height="100">
+			</figure>
+			
+			<p>Disponga del tiempo necesario y no se apresure a entenderlo todo de una vez.</p>
+			<p>No use editores automaticos de codigo, no es bueno para aprender , ya cuando tenga mas experencia si es bueno que los use para facilitar el trabajo.</p>
+			<p>Maneje siempre el estandar de desarrollo, esto permitira realizar modificaciones mas faciles a la hora de actualiar su diseño.</p>
+		</aside>
+
+		<footer>
+			<h4>Curso de Diseños de Sitios WEB - UNAD - 2017</h4>
+		</footer>
+
+	</div>
+   
+</body>
+
+<script src="js/modernizr.js"></script>
+<script src="js/prefixfree.js"></script>
+
+
+</html>
